@@ -7,7 +7,7 @@ class MCIDiagnosticSystem {
       speech: null,
     }
     this.currentScreen = "upload"
-    this.apiBaseUrl = "http://localhost:5000" // Your main.py API endpoint
+    this.apiBaseUrl = "https://mci-system-backend.onrender.com" // Your main.py API endpoint
     this.processingSteps = [
       { id: "step1", duration: 3000, modality: "face" },
       { id: "step2", duration: 2500, modality: "eye" },
